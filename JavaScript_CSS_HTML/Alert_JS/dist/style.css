@@ -1,0 +1,12 @@
+div.button{
+  width:100px;
+  margin: 10px;
+  border-color:#000000;
+  border-style:solid;
+}
+#ok{
+  background-color:#aaaaff;
+}
+#cancel{
+  background-color:#ffaaaa
+}

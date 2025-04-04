@@ -1,0 +1,16 @@
+canvas {
+  width:200px;
+  height:100px;
+  border: 1px solid lightgrey;
+  margin:5px;
+  display:block;
+}
+input{
+  font-size:20px;
+}
+.blueback{
+  background-color:#9999ff;
+}
+.orangeback{
+  background-color:#ff9955
+}

@@ -1,0 +1,11 @@
+<h1>Paint Canvas</h1>
+<div id="cnvs_ctrls" onchange="formatCanvasSize()">
+  <input id="cnvs_width" type="text" placeholder="width">
+  <input id="cnvs_height" type="text" placeholder="height">
+</div>
+<canvas id="pnt_area" onmousedown="startPaint()" onmousemove="doPaint(event.offsetX, event.offsetY)" onmouseup="endPaint()"></canvas>
+<div id="brsh_ctrls">
+  <input id="brsh_clr" type="color" onchange="setBrushColor()">
+  <input id="brsh_sz" type="range" min="1" max="50" value="1" oninput="setBrushSize()"><output id="sizeOutput">1</output>
+</div>
+  <input id="clr_cnvs" type="button" value="clear" onclick="clearCanvas()">
